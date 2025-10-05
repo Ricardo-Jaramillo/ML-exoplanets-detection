@@ -1,0 +1,73 @@
+# Data Science and Machine Learning
+numpy
+pandas
+scikit-learn
+scipy
+matplotlib
+seaborn
+plotly
+
+# Deep Learning
+tensorflow
+torch
+torchvision
+
+# Astronomy specific
+astropy
+lightkurve
+wotan
+transitleastsquares
+
+# Feature Engineering
+tsfresh
+cesium
+
+# Hyperparameter Optimization
+optuna
+hyperopt
+
+# Model Interpretation
+shap
+lime
+
+# Imbalanced Learning
+imbalanced-learn
+
+# Gradient Boosting
+lightgbm
+xgboost
+catboost
+
+# Progress bars and utilities
+tqdm
+joblib
+
+# Jupyter and Notebook
+jupyter
+ipykernel
+ipywidgets
+
+# Visualization
+bokeh
+altair
+
+# Data validation
+great-expectations
+
+# Model serving (optional for demo app)
+streamlit
+flask
+
+# Statistical analysis
+statsmodels
+pingouin
+
+# Additional utilities
+pyyaml
+configparser
+argparse
+
+# Development and testing
+pytest
+black
+flake8

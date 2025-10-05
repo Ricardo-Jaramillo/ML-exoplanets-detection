@@ -1,0 +1,81 @@
+{
+  "timestamp": "2025-10-05T03:31:07.889291",
+  "pipeline_status": "COMPLETED",
+  "datasets_processed": {
+    "KOI": [
+      9564,
+      149
+    ],
+    "K2": [
+      4004,
+      302
+    ],
+    "TOI": [
+      7703,
+      93
+    ]
+  },
+  "models_trained": 4,
+  "run_log": [
+    {
+      "timestamp": "2025-10-05T03:31:00.836745",
+      "action": "INICIO_PROYECTO",
+      "details": "Iniciando pipeline completo de detecci\u00f3n de exoplanetas",
+      "status": "SUCCESS"
+    },
+    {
+      "timestamp": "2025-10-05T03:31:00.836745",
+      "action": "CARGA_DATOS",
+      "details": "Datasets cargados - KOI: (9564, 141), K2: (4004, 295), TOI: (7703, 87)",
+      "status": "SUCCESS"
+    },
+    {
+      "timestamp": "2025-10-05T03:31:00.954095",
+      "action": "PREPROCESO_KOI",
+      "details": "Dataset KOI preprocesado: (9564, 142), Target binario creado",
+      "status": "SUCCESS"
+    },
+    {
+      "timestamp": "2025-10-05T03:31:01.071798",
+      "action": "PREPROCESO_K2",
+      "details": "Dataset K2 preprocesado: (4004, 296), Target binario creado",
+      "status": "SUCCESS"
+    },
+    {
+      "timestamp": "2025-10-05T03:31:01.107698",
+      "action": "PREPROCESO_TOI",
+      "details": "Dataset TOI preprocesado: (7703, 88), Target binario creado",
+      "status": "SUCCESS"
+    },
+    {
+      "timestamp": "2025-10-05T03:31:01.188678",
+      "action": "FEATURE_ENGINEERING",
+      "details": "Feature engineering completado con features espec\u00edficos por dataset",
+      "status": "SUCCESS"
+    },
+    {
+      "timestamp": "2025-10-05T03:31:06.951634",
+      "action": "MODELOS_KOI",
+      "details": "Modelos cl\u00e1sicos entrenados en KOI: ['Random Forest', 'LightGBM', 'XGBoost', 'AdaBoost']",
+      "status": "SUCCESS"
+    },
+    {
+      "timestamp": "2025-10-05T03:31:07.503614",
+      "action": "TRANSFERENCIA_K2",
+      "details": "Reentrenamiento exitoso: ['Random Forest', 'LightGBM']",
+      "status": "SUCCESS"
+    },
+    {
+      "timestamp": "2025-10-05T03:31:07.856744",
+      "action": "TRANSFERENCIA_TOI",
+      "details": "Reentrenamiento exitoso: ['Random Forest', 'LightGBM']",
+      "status": "SUCCESS"
+    },
+    {
+      "timestamp": "2025-10-05T03:31:07.891291",
+      "action": "PIPELINE_COMPLETADO",
+      "details": "Pipeline de detecci\u00f3n de exoplanetas completado exitosamente",
+      "status": "SUCCESS"
+    }
+  ]
+}

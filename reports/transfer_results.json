@@ -1,0 +1,58 @@
+{
+  "timestamp": "2025-10-05T03:31:07.857743",
+  "method": "retraining_with_common_features",
+  "transfers": {
+    "KOI\u2192K2": {
+      "Random Forest": {
+        "recall": 0.8178368121442126,
+        "precision": 0.9109299516908212,
+        "f1": 0.8618768747321811,
+        "roc_auc": 0.42864027331362653,
+        "pr_auc": 0.9112402220548024,
+        "features_used": [
+          "dec",
+          "avg_relative_error",
+          "ra"
+        ]
+      },
+      "LightGBM": {
+        "recall": 0.7839522905936568,
+        "precision": 0.9074364606212739,
+        "f1": 0.8411867364746946,
+        "roc_auc": 0.3947811382617563,
+        "pr_auc": 0.9049846068978853,
+        "features_used": [
+          "dec",
+          "avg_relative_error",
+          "ra"
+        ]
+      }
+    },
+    "KOI\u2192TOI": {
+      "Random Forest": {
+        "recall": 0.7136392009987516,
+        "precision": 0.8384671800513385,
+        "f1": 0.7710335525206542,
+        "roc_auc": 0.508530962744446,
+        "pr_auc": 0.8345181582898097,
+        "features_used": [
+          "dec",
+          "avg_relative_error",
+          "ra"
+        ]
+      },
+      "LightGBM": {
+        "recall": 0.0,
+        "precision": 0.0,
+        "f1": 0.0,
+        "roc_auc": 0.5097601212769753,
+        "pr_auc": 0.8346532406498353,
+        "features_used": [
+          "dec",
+          "avg_relative_error",
+          "ra"
+        ]
+      }
+    }
+  }
+}
