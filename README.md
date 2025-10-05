@@ -1,4 +1,4 @@
-# README.md — Proyecto: Detección de Exoplanetas con AI/ML (Kepler, K2, TESS)
+Detección de Exoplanetas con AI/ML (Kepler, K2, TESS)
 
 Este README define el plan de trabajo científico-técnico para replicar y ensamblar los mejores modelos de la literatura (**ExoMiner**, **ExoNet/AstroNet**, **GPC**, **Robovetter**), compararlos con algoritmos clásicos eficientes (**RF/GBM/SVM**), y construir un pipeline reproducible de punta a punta que entrena, evalúa y despliega modelos robustos multi-misión (Kepler, K2, TESS).
 
