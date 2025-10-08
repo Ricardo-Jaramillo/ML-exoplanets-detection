@@ -2,20 +2,6 @@ Detección de Exoplanetas con AI/ML (Kepler, K2, TESS)
 
 Este README define el plan de trabajo científico-técnico para replicar y ensamblar los mejores modelos de la literatura (**ExoMiner**, **ExoNet/AstroNet**, **GPC**, **Robovetter**), compararlos con algoritmos clásicos eficientes (**RF/GBM/SVM**), y construir un pipeline reproducible de punta a punta que entrena, evalúa y despliega modelos robustos multi-misión (Kepler, K2, TESS).
 
-> ⚠️ **Estado del Proyecto:** ✅ **COMPLETADO EXITOSAMENTE**  
-> ✅ Pipeline completo implementado con 8 modelos (4 clásicos + 4 deep learning)  
-> ✅ Arquitectura ExoMiner ensemble con especialización por dominios implementada  
-> ✅ Análisis comparativo comprehensivo ML Clásico vs Deep Learning realizado  
-> ✅ Interpretabilidad avanzada con SHAP, correlaciones y análisis de componentes  
-> ✅ Visualizaciones extensas: ROC/PR curves, feature importance, curvas de entrenamiento  
-
-> ⚠️ **Ejecución principal:**  
-> El trabajo se realizó en la notebook Jupyter `/notebooks/exoplanet_detection.ipynb` (33 celdas, completamente ejecutada)  
-> ⚠️ **Entorno:**  
-> Ambiente virtual configurado con PyTorch 2.8.0, scikit-learn 1.7.2, SHAP, LightGBM, XGBoost  
-> ⚠️ **Datasets:**  
-> Procesados exitosamente: KOI (9,564×141), K2 (4,004×295), TOI (7,703×87) con glosarios completos
-
 Se priorizó **recall** como métrica central por el fuerte desbalance de clases, utilizando **AUC-PR/AUC-ROC**, **F1** y análisis de trade-offs para una evaluación completa y honesta.
 
 **Objetivo ALCANZADO:**  
@@ -23,6 +9,11 @@ Se priorizó **recall** como métrica central por el fuerte desbalance de clases
 ✅ **LightGBM**: ROC-AUC = 0.989, PR-AUC = 0.989, F1 = 0.939 (mejor modelo)  
 ✅ **ExoMiner Ensemble**: ROC-AUC = 0.977, PR-AUC = 0.979, F1 = 0.902  
 ✅ Evidencia experimental completa y trazabilidad metodológica generada
+
+**Dataflow and ML Architecture**
+<p align="center">
+  <img src="./data/Diagrama%20de%20Flujo%20-%20Datos.png" alt="Diagrama de Flujo de Datos" width="500"/>
+</p>
 
 ---
 
