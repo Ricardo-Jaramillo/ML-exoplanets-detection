@@ -1,6 +1,10 @@
-Detección de Exoplanetas con AI/ML (Kepler, K2, TESS)
+# Detección de Exoplanetas con AI/ML (Kepler, K2, TESS)
 
-Este README define el plan de trabajo científico-técnico para replicar y ensamblar los mejores modelos de la literatura (**ExoMiner**, **ExoNet/AstroNet**, **GPC**, **Robovetter**), compararlos con algoritmos clásicos eficientes (**RF/GBM/SVM**), y construir un pipeline reproducible de punta a punta que entrena, evalúa y despliega modelos robustos multi-misión (Kepler, K2, TESS).
+Este Repo es parte del proyecto completo en [Hunting for exoplanets with AI](https://github.com/OscarSantosMu/hunting-for-exoplanets-with-AI)
+
+---
+
+En este documento se define el plan de trabajo científico-técnico para replicar y ensamblar los mejores modelos de la literatura (**ExoMiner**, **ExoNet/AstroNet**, **GPC**, **Robovetter**), compararlos con algoritmos clásicos eficientes (**RF/GBM/SVM**), y construir un pipeline reproducible de punta a punta que entrena, evalúa y despliega modelos robustos multi-misión (Kepler, K2, TESS).
 
 Se priorizó **recall** como métrica central por el fuerte desbalance de clases, utilizando **AUC-PR/AUC-ROC**, **F1** y análisis de trade-offs para una evaluación completa y honesta.
 
