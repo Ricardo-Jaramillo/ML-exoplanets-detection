@@ -1,0 +1,151 @@
+# ====================================
+# Python general
+# ====================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# ====================================
+# Entornos virtuales
+# ====================================
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ====================================
+# Dependencias y librerías locales
+# ====================================
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+sdist/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+MANIFEST
+
+# ====================================
+# Archivos de configuración/instalación
+# ====================================
+.Python
+.pytest_cache/
+.coverage
+.tox/
+.nox/
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+.cache/
+pytestdebug.log
+ipynb_checkpoints/
+
+# ====================================
+# Archivos de datos y resultados
+# ====================================
+*.log
+*.out
+*.tmp
+*.bak
+*.swp
+*.swo
+*.sqlite3
+*.db
+*.tar
+*.zip
+*.gz
+*.bz2
+*.h5
+*.parquet
+
+# ====================================
+# Notebooks y análisis
+# ====================================
+.ipynb_checkpoints
+*.nbconvert.ipynb
+*.nbproject
+.notebooks/
+
+# ====================================
+# Archivos de IDEs
+# ====================================
+.vscode/
+.idea/
+.spyproject/
+.ropeproject/
+.history/
+
+# ====================================
+# Archivos del sistema operativo
+# ====================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ====================================
+# Archivos temporales y artefactos
+# ====================================
+logs/
+artifacts/
+outputs/
+reports/
+temp/
+tmp/
+*.log
+*.jsonl
+*.pickle
+*.pkl
+*.sav
+
+# ====================================
+# Configuración y claves locales
+# ====================================
+*.env.local
+.env.*
+*.secret
+*.key
+secrets/
+config/local/
+credentials.json
+
+# ====================================
+# GitHub y workflows (solo carpeta interna)
+# ====================================
+.github/chatmodes/
+.github/chatmodes/*
+
+# ====================================
+# Docker y contenedores
+# ====================================
+docker-compose.override.yml
+*.pid
+*.sock
+*.tar
+*.img
+
+# ====================================
+# Archivos de documentación generados
+# ====================================
+_site/
+docs/_build/
+build/docs/
+*.pdf
+
+# ====================================
+# Otros
+# ====================================
+*.bak
+*.orig
+*.rej
+*.swp
+*.swo
+*.tmp
